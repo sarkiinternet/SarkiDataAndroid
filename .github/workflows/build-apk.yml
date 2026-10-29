@@ -26,7 +26,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip SarkiDataAndroidProject-v4-StatusBar-NavBar.zip -d extracted
+          unzip SarkiDataAndroidProject-v2.zip -d extracted
           cp -r extracted/. .
 
       - name: Build APK
